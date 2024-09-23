@@ -1,0 +1,74 @@
+.game-container {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.game-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.player-input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+}
+
+.game-button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.choices-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.choice-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.choice-image:hover {
+    transform: scale(1.1);
+}
+
+.choice-image.selected {
+    border: 4px solid #ff5722;
+    border-radius: 50%;
+    transform: scale(1.2); 
+}
+
+.game-score, .game-winner {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.player-section {
+    margin: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
